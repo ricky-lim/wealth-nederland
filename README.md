@@ -3,7 +3,7 @@
 This is an example of a notebook `wealth_of_nederland.ipynb`, deployed using voila on Heroku,
 using data with id: `71103ENG` from `opendata.cbs.nl`
 
-Please try it out @http://wealth-nederland.herokuapp.com 🙏
+Please try it out @http://wealth-of-nederland.herokuapp.com 🙏
 or to play around interactively 🤓 with a notebook, just click the binder link, below  
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ricky-lim/wealth-nederland/master?filepath=notebooks%2Fwealth_of_nederland.ipynb)
