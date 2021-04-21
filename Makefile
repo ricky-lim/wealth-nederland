@@ -66,6 +66,9 @@ lint:
 notebook: lint
 	jupytext --to notebook notebooks/*.py
 
+test:
+	pytest
+
 
 #################################################################################
 # Self Documenting Commands                                                     #

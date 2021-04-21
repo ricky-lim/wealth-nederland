@@ -2,3 +2,5 @@ black==20.8b1
 ipykernel=5.5.3
 jupytext==1.11.1
 jupyterlab==3.0.14
+pytest-tornado==0.8.0
+pytest==6.2.3

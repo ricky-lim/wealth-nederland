@@ -15,6 +15,9 @@ make create_environment
 
 # Activate the virtual environment, `conda activate wealth-nederland`
 make requirements
+
+# Add dataset
+make data
 ```
 
 ### Development
@@ -27,6 +30,9 @@ make kernel
 
 # Lint `src` and `notebooks`
 make lint
+
+# Run test
+make test
 ```
 
 ## References
