@@ -1,11 +1,35 @@
 # Wealth of Nederland
-
-This is an example of a notebook `wealth_of_nederland.ipynb`, deployed using voila on Heroku,
-using data with id: `71103ENG` from `opendata.cbs.nl`
-
-Please try it out @http://wealth-of-nederland.herokuapp.com 🙏
-or to play around interactively 🤓 with a notebook, just click the binder link, below  
-
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ricky-lim/wealth-nederland/master?filepath=notebooks%2Fwealth_of_nederland.ipynb)
 
+
+A dashboard application to explore income data from opendata.cbs.nl.
+
+Avaiable at http://wealth-of-nederland.herokuapp.com
+
 Details on how to deploy voila-based notebook on heroku, please refer [here](https://github.com/martinRenou/voila-heroku).
+
+## Setup
+
+```
+make create_environment
+
+# Activate the virtual environment, `conda activate wealth-nederland`
+make requirements
+```
+
+### Development
+
+```
+make dev_requirements
+
+# Create ipykernel for jupyter
+make kernel
+
+# Lint `src` and `notebooks`
+make lint
+```
+
+## References
+
+- Nederland map is from https://www.webuildinternet.com/articles/2015-07-19-geojson-data-of-the-netherlands/provinces.geojson
+- Income data with id: `71103ENG` from `opendata.cbs.nl`
