@@ -1,6 +1,6 @@
 # Wealth of Nederland
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ricky-lim/wealth-nederland/master?filepath=notebooks%2Fwealth_of_nederland.ipynb)
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ricky-lim/wealth-nederland/master?filepath=notebooks%2Fwealth_of_nederland.ipynb)
 
 A dashboard application to explore income data from opendata.cbs.nl.
 
@@ -15,15 +15,15 @@ make create_environment
 
 # Activate the virtual environment, `conda activate wealth-nederland`
 make requirements
-
-# Add dataset
-make data
 ```
 
 ### Development
 
 ```
 make dev_requirements
+
+# Add dataset
+make data
 
 # Create ipykernel for jupyter
 make kernel

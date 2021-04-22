@@ -66,6 +66,7 @@ lint:
 notebook: lint
 	jupytext --to notebook notebooks/*.py
 
+## Run test
 test:
 	pytest
 
