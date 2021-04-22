@@ -78,8 +78,7 @@ class Dashboard:
         return Figure(
             marks=[self.lineplot],
             axes=[ax_x, ax_y],
-            title="Income per Year (Click a provice to show)",
-            subtitle="Click a province to show",
+            title="Income per Year (Click a province to show)",
             layout={
                 "min_width": "400px",
                 "width": "auto",
